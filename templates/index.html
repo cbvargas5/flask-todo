@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %} 
+{% block head %}
+<title>Index file</title> 
+{% endblock %} 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <h1>Hello from template folder!</h1>
-</body>
-
-</html>
+{% block body %}
+<h1>Hello from templating!</h1>
+{% endblock %}
